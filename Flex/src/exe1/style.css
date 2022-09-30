@@ -109,6 +109,13 @@ html{
 }
 /*utils*/
 
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 h2{
     color: var(--cl-primary);
 }
@@ -138,29 +145,29 @@ h2{
     padding: 2.5em;
 }
 
-.card__title{
+.card__content__title{
     display: flex;
     flex-direction: column;
     gap: 1.6em;
 }
 
-.card__title p{
+.card__content__title p{
     line-height: 1.75em;
 }
 
-.card__info{
+.card__content__info{
     margin-top: 5em;
     display: flex;
     justify-content: space-between;
 }
 
-.card__info p{
+.card__content__info p{
     opacity: .6;
     line-height: 1;
     max-width: min-content;
 }
 
-.card__info time{
+.card__content__info time{
     font-size: 2em;
 }
 
@@ -187,7 +194,7 @@ button{
         max-width: min(90%, 60rem);
     }
 
-    .card__title p{
+    .card__content__title p{
         max-width: min(100%, 25rem);
     }
 }
