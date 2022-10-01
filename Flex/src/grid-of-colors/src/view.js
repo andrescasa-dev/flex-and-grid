@@ -1,0 +1,5 @@
+export const div_pallet = document.querySelector('#pallet')
+export const input_columns = document.querySelector('#columns')
+export const input_rows = document.querySelector('#rows')
+export const value_rows = document.querySelector('#rows_value')
+export const value_columns = document.querySelector('#columns_value')

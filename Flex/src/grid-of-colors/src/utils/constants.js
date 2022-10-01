@@ -1,0 +1,1 @@
+export const HEX_API_BASE_URL = 'https://apis.scrimba.com/hexcolors';
