@@ -9,8 +9,20 @@
   <link rel="stylesheet" href="style.css">
   <title>OnlineUsers</title>
 </head>
-<body class="flex h-screen bg-slate-900 font-lg  text-gray-100 text-md">
-  <div id="users" class="m-auto max-w-[20em] px-1.5 flex flex-col rounded bg-slate-600">
-  </div>
+<body class="flex flex-col h-screen bg-slate-900 font-lg text-slate-200 text-md">
+  <header class="p-5">
+    <h1 class="text-xl uppercase">Online users</h1>
+  </header>
+  <main class="flex-[0_0_82vh] flex overflow-hidden">
+    <div id="users" class="flex-[0_0_auto] flex flex-col max-w-[20em] px-1.5 bg-slate-600 overflow-scroll">
+    </div>
+    <div class="flex-auto flex flex-col bg-slate-700 p-5">
+      <h2 class="text-lg mb-6">Practice</h2>
+      <p class="max-w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae aliquid iusto architecto modi consectetur ut accusamus. Quis dolor assumenda sit? Expedita, suscipit vitae odio repudiandae temporibus architecto quis aliquid.</p>
+    </div>
+  </main>
+  <footer class="p-5">
+    <p class="text-sm text-slate-200">Created by AndresCasa_dev</p>
+  </footer>  
 </body>
 </html>
